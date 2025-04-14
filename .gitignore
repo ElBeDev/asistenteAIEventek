@@ -1,0 +1,14 @@
+# Node
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+*.log

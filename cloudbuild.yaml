@@ -1,0 +1,28 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/whatsapp-bot:$COMMIT_SHA', '.']
+  
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/whatsapp-bot:$COMMIT_SHA']
+  
+  # Deploy container image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'whatsapp-bot'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/whatsapp-bot:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--set-env-vars'
+      - 'OPENAI_API_KEY=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,ETNOSUR_ASSISTANT_ID=asst_IWLsZT9D9vAc4qAiqGCMUvgn,WHATSAPP_TOKEN=EAATDmvk3GEcBOyhPHHjijETKgapCtRTV89WXJCZAC3CLQYMfxYAknWB2uBR4yZA07REevde7oaFtiTE8ZB9gdsYeRjmTjeuuO05OdIFRHOZB7W8RZCAHll0m6jO5mC30fCoPaen4YRgFPpjMZC8sCUnO9qmu1OT2ZA6hZCWJPg7vKlamtgjOZAjuZCyky7bLpKsZAAhygZDZD,PHONE_NUMBER_ID=601463503052178,WEBHOOK_VERIFY_TOKEN=123456'
+
+images:
+  - 'gcr.io/$PROJECT_ID/whatsapp-bot:$COMMIT_SHA'

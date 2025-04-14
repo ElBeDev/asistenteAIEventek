@@ -1,0 +1,864 @@
+textPayload: '}'
+timestamp: '2025-03-28T16:41:34.001567Z'
+---
+insertId: 67e6d13e0000061bf8f91130
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '  "content": "\u00a1Hola! \u00bfEn qu\u00e9 puedo ayudarte hoy?"'
+timestamp: '2025-03-28T16:41:34.001563Z'
+---
+insertId: 67e6d13e000006176bb8e6f3
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '  "type": "text",'
+timestamp: '2025-03-28T16:41:34.001559Z'
+---
+insertId: 67e6d13e0000060fb7b1b3b0
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:34,003 - etnosur_bot - INFO - Test response received:
+  {'
+timestamp: '2025-03-28T16:41:34.001551Z'
+---
+insertId: 67e6d13e000002c4931cf40f
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:34,002 - openai._base_client - DEBUG - request_id:
+  req_8bb018062de42c7d9bb27cabaecc689c'
+timestamp: '2025-03-28T16:41:34.000708Z'
+---
+insertId: 67e6d13e000002bcee263e5a
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: "2025-03-28 16:41:34,002 - openai._base_client - DEBUG - HTTP Response:\
+  \ GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/messages\
+  \ \"200 OK\" Headers({'date': 'Fri, 28 Mar 2025 16:41:33 GMT', 'content-type': 'application/json',\
+  \ 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'openai-version':\
+  \ '2020-10-01', 'openai-organization': 't4e-e3waii', 'x-request-id': 'req_8bb018062de42c7d9bb27cabaecc689c',\
+  \ 'openai-processing-ms': '63', 'strict-transport-security': 'max-age=31536000;\
+  \ includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options':\
+  \ 'nosniff', 'server': 'cloudflare', 'cf-ray': '92789362ad2513a0-ORD', 'content-encoding':\
+  \ 'gzip', 'alt-svc': 'h3=\":443\"; ma=86400'})"
+timestamp: '2025-03-28T16:41:34.000700Z'
+---
+insertId: 67e6d13e0000025b3cc90514
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:34,002 - httpcore.http11 - DEBUG - response_closed.complete
+timestamp: '2025-03-28T16:41:34.000603Z'
+---
+insertId: 67e6d13e000001fa0d1ff7ba
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:34,002 - httpcore.http11 - DEBUG - response_closed.started
+timestamp: '2025-03-28T16:41:34.000506Z'
+---
+insertId: 67e6d13e000001d4f4fd77f1
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:34,002 - httpcore.http11 - DEBUG - receive_response_body.complete
+timestamp: '2025-03-28T16:41:34.000468Z'
+---
+insertId: 67e6d13e000000e6a5ab77db
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:34,001 - httpcore.http11 - DEBUG - receive_response_body.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:34.000230Z'
+---
+insertId: 67e6d13e000000dc6e3ed329
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:34,001 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/messages   
+  "HTTP/1.1 200 OK"'
+timestamp: '2025-03-28T16:41:34.000220Z'
+---
+insertId: 67e6d13d000f415bbd5495d1
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:34,001 - httpcore.http11 - DEBUG - receive_response_headers.complete
+  return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 28 Mar 2025 16:41:33 GMT'),
+  (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection',
+  b'keep-alive'), (b'openai-version', b'2020-10-01'), (b'openai-organization', b't4e-e3waii'),
+  (b'x-request-id', b'req_8bb018062de42c7d9bb27cabaecc689c'), (b'openai-processing-ms',
+  b'63'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'),
+  (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server',
+  b'cloudflare'), (b'CF-RAY', b'92789362ad2513a0-ORD'), (b'Content-Encoding', b'gzip'),
+  (b'alt-svc', b'h3=":443"; ma=86400')])
+timestamp: '2025-03-28T16:41:33.999771Z'
+---
+insertId: 67e6d13d000d1c16ffa4c2e0
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,858 - httpcore.http11 - DEBUG - receive_response_headers.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:33.859158Z'
+---
+insertId: 67e6d13d000d1c12b8ab9321
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,858 - httpcore.http11 - DEBUG - send_request_body.complete
+timestamp: '2025-03-28T16:41:33.859154Z'
+---
+insertId: 67e6d13d000d1c0f473d7eca
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,858 - httpcore.http11 - DEBUG - send_request_body.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:33.859151Z'
+---
+insertId: 67e6d13d000d1c0c5070537e
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,858 - httpcore.http11 - DEBUG - send_request_headers.complete
+timestamp: '2025-03-28T16:41:33.859148Z'
+---
+insertId: 67e6d13d000d1c08d8440fe2
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,858 - httpcore.http11 - DEBUG - send_request_headers.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:33.859144Z'
+---
+insertId: 67e6d13d000d1bffdfd4af16
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:33,857 - openai._base_client - DEBUG - Sending HTTP
+  Request: GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/messages'
+timestamp: '2025-03-28T16:41:33.859135Z'
+---
+insertId: 67e6d13d000d0fee89ddaff5
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: "2025-03-28 16:41:33,857 - openai._base_client - DEBUG - Request options:\
+  \ {'method': 'get', 'url': '/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/messages',\
+  \ 'params': {}, 'headers': {'OpenAI-Beta': 'assistants=v2'}, 'post_parser': <function\
+  \ SyncAPIClient._request_api_list.<locals>._parser at 0x3e6b66bef600>, 'json_data':\
+  \ None}"
+timestamp: '2025-03-28T16:41:33.856046Z'
+---
+insertId: 67e6d13d000d0bcb789647b3
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:33,855 - medicina_pleural_assistant - INFO - Run status:
+  completed'
+timestamp: '2025-03-28T16:41:33.854987Z'
+---
+insertId: 67e6d13d000d077ad0f6cf69
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:33,854 - openai._base_client - DEBUG - request_id:
+  req_06468f135f02222bca7534957369e279'
+timestamp: '2025-03-28T16:41:33.853882Z'
+---
+insertId: 67e6d13d000d0776e005f0a3
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: "2025-03-28 16:41:33,854 - openai._base_client - DEBUG - HTTP Response:\
+  \ GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/runs/run_twY4LSkTVRw6wZQrLDoleuc6\
+  \ \"200 OK\" Headers({'date': 'Fri, 28 Mar 2025 16:41:33 GMT', 'content-type': 'application/json',\
+  \ 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'openai-version':\
+  \ '2020-10-01', 'openai-organization': 't4e-e3waii', 'x-request-id': 'req_06468f135f02222bca7534957369e279',\
+  \ 'openai-processing-ms': '183', 'strict-transport-security': 'max-age=31536000;\
+  \ includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options':\
+  \ 'nosniff', 'server': 'cloudflare', 'cf-ray': '92789360cf3413a0-ORD', 'content-encoding':\
+  \ 'gzip', 'alt-svc': 'h3=\":443\"; ma=86400'})"
+timestamp: '2025-03-28T16:41:33.853878Z'
+---
+insertId: 67e6d13d000d076ecd5172b4
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,854 - httpcore.http11 - DEBUG - response_closed.complete
+timestamp: '2025-03-28T16:41:33.853870Z'
+---
+insertId: 67e6d13d000d076b642ed831
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,854 - httpcore.http11 - DEBUG - response_closed.started
+timestamp: '2025-03-28T16:41:33.853867Z'
+---
+insertId: 67e6d13d000d0767d61aca85
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,854 - httpcore.http11 - DEBUG - receive_response_body.complete
+timestamp: '2025-03-28T16:41:33.853863Z'
+---
+insertId: 67e6d13d000d075e99074501
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,854 - httpcore.http11 - DEBUG - receive_response_body.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:33.853854Z'
+---
+insertId: 67e6d13d000d019bae693a72
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:33,854 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/runs/run_twY4LSkTVRw6wZQrLDoleuc6
+  "HTTP/1.1 200 OK"'
+timestamp: '2025-03-28T16:41:33.852379Z'
+---
+insertId: 67e6d13d000d01415930cede
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:34.058832567Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,853 - httpcore.http11 - DEBUG - receive_response_headers.complete
+  return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 28 Mar 2025 16:41:33 GMT'),
+  (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection',
+  b'keep-alive'), (b'openai-version', b'2020-10-01'), (b'openai-organization', b't4e-e3waii'),
+  (b'x-request-id', b'req_06468f135f02222bca7534957369e279'), (b'openai-processing-ms',
+  b'183'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'),
+  (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server',
+  b'cloudflare'), (b'CF-RAY', b'92789360cf3413a0-ORD'), (b'Content-Encoding', b'gzip'),
+  (b'alt-svc', b'h3=":443"; ma=86400')])
+timestamp: '2025-03-28T16:41:33.852289Z'
+---
+insertId: 67e6d13d000895cd3e7f0444
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,564 - httpcore.http11 - DEBUG - receive_response_headers.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:33.562637Z'
+---
+insertId: 67e6d13d000895c6a4c76ade
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,564 - httpcore.http11 - DEBUG - send_request_body.complete
+timestamp: '2025-03-28T16:41:33.562630Z'
+---
+insertId: 67e6d13d0008959fb4dca02f
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,564 - httpcore.http11 - DEBUG - send_request_body.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:33.562591Z'
+---
+insertId: 67e6d13d0008959752c32731
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,564 - httpcore.http11 - DEBUG - send_request_headers.complete
+timestamp: '2025-03-28T16:41:33.562583Z'
+---
+insertId: 67e6d13d0008942111284635
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,563 - httpcore.http11 - DEBUG - send_request_headers.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:33.562209Z'
+---
+insertId: 67e6d13d000893344b316627
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:33,563 - openai._base_client - DEBUG - Sending HTTP
+  Request: GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/runs/run_twY4LSkTVRw6wZQrLDoleuc6'
+timestamp: '2025-03-28T16:41:33.561972Z'
+---
+insertId: 67e6d13d00089082723a6a94
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: "2025-03-28 16:41:33,562 - openai._base_client - DEBUG - Request options:\
+  \ {'method': 'get', 'url': '/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/runs/run_twY4LSkTVRw6wZQrLDoleuc6',\
+  \ 'headers': {'OpenAI-Beta': 'assistants=v2'}}"
+timestamp: '2025-03-28T16:41:33.561282Z'
+---
+insertId: 67e6d13d00088f68eb860d2b
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:33.722478175Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:33,562 - medicina_pleural_assistant - INFO - Checking
+  run status for run run_twY4LSkTVRw6wZQrLDoleuc6
+timestamp: '2025-03-28T16:41:33.561Z'
+---
+insertId: 67e6d13c00088ca34ee30c9b
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:32,561 - medicina_pleural_assistant - INFO - Run status:
+  in_progress'
+timestamp: '2025-03-28T16:41:32.560291Z'
+---
+insertId: 67e6d13c000889599b793c12
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:32,560 - openai._base_client - DEBUG - request_id:
+  req_b95761487be4e8568abb4602d351a95d'
+timestamp: '2025-03-28T16:41:32.559449Z'
+---
+insertId: 67e6d13c000889548ccd5a74
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: "2025-03-28 16:41:32,560 - openai._base_client - DEBUG - HTTP Response:\
+  \ GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/runs/run_twY4LSkTVRw6wZQrLDoleuc6\
+  \ \"200 OK\" Headers({'date': 'Fri, 28 Mar 2025 16:41:32 GMT', 'content-type': 'application/json',\
+  \ 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'openai-version':\
+  \ '2020-10-01', 'openai-organization': 't4e-e3waii', 'x-request-id': 'req_b95761487be4e8568abb4602d351a95d',\
+  \ 'openai-processing-ms': '214', 'strict-transport-security': 'max-age=31536000;\
+  \ includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options':\
+  \ 'nosniff', 'server': 'cloudflare', 'cf-ray': '92789358a8ac13a0-ORD', 'content-encoding':\
+  \ 'gzip', 'alt-svc': 'h3=\":443\"; ma=86400'})"
+timestamp: '2025-03-28T16:41:32.559444Z'
+---
+insertId: 67e6d13c0008888a3fe03226
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,560 - httpcore.http11 - DEBUG - response_closed.complete
+timestamp: '2025-03-28T16:41:32.559242Z'
+---
+insertId: 67e6d13c00088882d703a0d1
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,560 - httpcore.http11 - DEBUG - response_closed.started
+timestamp: '2025-03-28T16:41:32.559234Z'
+---
+insertId: 67e6d13c000888536578d125
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,560 - httpcore.http11 - DEBUG - receive_response_body.complete
+timestamp: '2025-03-28T16:41:32.559187Z'
+---
+insertId: 67e6d13c0008875f4bd35373
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,560 - httpcore.http11 - DEBUG - receive_response_body.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:32.558943Z'
+---
+insertId: 67e6d13c000886f2b0f075ec
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: '2025-03-28 16:41:32,560 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/threads/thread_X7LhtiNiUJWTzVD8IQPx8SYN/runs/run_twY4LSkTVRw6wZQrLDoleuc6
+  "HTTP/1.1 200 OK"'
+timestamp: '2025-03-28T16:41:32.558834Z'
+---
+insertId: 67e6d13c000885bef4ff3c9e
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.725710700Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,559 - httpcore.http11 - DEBUG - receive_response_headers.complete
+  return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 28 Mar 2025 16:41:32 GMT'),
+  (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection',
+  b'keep-alive'), (b'openai-version', b'2020-10-01'), (b'openai-organization', b't4e-e3waii'),
+  (b'x-request-id', b'req_b95761487be4e8568abb4602d351a95d'), (b'openai-processing-ms',
+  b'214'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'),
+  (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server',
+  b'cloudflare'), (b'CF-RAY', b'92789358a8ac13a0-ORD'), (b'Content-Encoding', b'gzip'),
+  (b'alt-svc', b'h3=":443"; ma=86400')])
+timestamp: '2025-03-28T16:41:32.558526Z'
+---
+insertId: 67e6d13c0004021e63d96997
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.393887343Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,263 - httpcore.http11 - DEBUG - receive_response_headers.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:32.262686Z'
+---
+insertId: 67e6d13c0004021ac73e6725
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.393887343Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,263 - httpcore.http11 - DEBUG - send_request_body.complete
+timestamp: '2025-03-28T16:41:32.262682Z'
+---
+insertId: 67e6d13c0004020fda25dc73
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.393887343Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,263 - httpcore.http11 - DEBUG - send_request_body.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:32.262671Z'
+---
+insertId: 67e6d13c0004020ace78713a
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.393887343Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,263 - httpcore.http11 - DEBUG - send_request_headers.complete
+timestamp: '2025-03-28T16:41:32.262666Z'
+---
+insertId: 67e6d13c000402014f137e8e
+labels:
+  instanceId: 00afae8043c8fa55f3442679a4e590e617a561a98cfe778280140316208f1a9415f2e392d89c818b6d385b77c0ad44a2271909f299806e1f95c0964dd17f436306b1ed0d
+logName: projects/churroworld-co/logs/run.googleapis.com%2Fstdout
+receiveTimestamp: '2025-03-28T16:41:32.393887343Z'
+resource:
+  labels:
+    configuration_name: whatsapp-bot
+    location: us-central1
+    project_id: churroworld-co
+    revision_name: whatsapp-bot-00003-z2r
+    service_name: whatsapp-bot
+  type: cloud_run_revision
+textPayload: 2025-03-28 16:41:32,263 - httpcore.http11 - DEBUG - send_request_headers.started
+  request=<Request [b'GET']>
+timestamp: '2025-03-28T16:41:32.262657Z'
