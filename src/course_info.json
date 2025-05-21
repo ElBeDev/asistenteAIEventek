@@ -1,187 +1,99 @@
 {
-    "evento": {
-      "nombre": "4º Curso de Medicina Pleural y Broncoscopía 2025",
-      "ubicacion": "Hotel San Juan Park, Paseo Central 48, Col. Valle de Oro, C.P. 76802, San Juan del Río, Querétaro, México",
-      "fechas": "16 y 17 de mayo de 2025",
-      "horario": "08:00 a 16:00",
-      "descripcion": "16 de mayo: Medicina Pleural / 17 de mayo: Patología de Vía Aérea. Programa completo disponible en la página de Instagram.",
-      "cupo": 60,
-      "avalado_por": "Universidad Autónoma de Querétaro (UAQ)",
-      "cierre_inscripciones": "12 de mayo de 2025",
-      "otras_fechas": "De momento es una fecha única por año"
-    },
-    "costos": {
-      "medico_adscrito": 3000,
-      "medico_residente": 2000,
-      "descripcion": "Costo para cualquier especialidad: residentes $2000, adscritos $3000"
-    },
-    "inscripcion": {
-      "cuenta_deposito": {
-        "banco": "BBVA",
-        "clabe": "012685029772880421"
+  "business_info": {
+      "name": "Eventek",
+      "description": "Empresa especializada en asistentes virtuales de IA para eventos",
+      "phone": "+34 900 123 456",
+      "email": "contacto@eventek.com",
+      "working_hours": "24/7 (Asistente Virtual)",
+      "social_media": {
+          "twitter": "https://twitter.com/eventek",
+          "facebook": "https://facebook.com/eventek",
+          "instagram": "https://instagram.com/eventek",
+          "linkedin": "https://linkedin.com/company/eventek"
       },
-      "factura": {
-        "disponible": true,
-        "requisitos": "Enviar constancia de situación fiscal al correo medpleural@gmail.com"
-      },
-      "correo": "medpleural@gmail.com"
-    },
-    "informacion_general": {
-      "quien_puede_asistir": "Personal médico, residentes y adscritos de cualquier especialidad que deseen aprender o reforzar conocimientos sobre medicina pleural y de vía aérea."
-    },
-    "contacto": {
-      "telefono": "5545113970 (solo mensajes)",
-      "correo": "medpleural@gmail.com",
-      "redes_sociales": {
-        "instagram": "https://www.instagram.com/pleura_via_aerea"
-      }
-    },
-    "programacion": {
-      "dia_1": {
-        "temas": {
-          "pleura": {
-            "horario": "08:30 - 11:00",
-            "charlas": [
-              {
-                "tema": "ABC del derrame pleural",
-                "ponente": "Dr. Gómez Lucas (Neumología)",
-                "hora": "08:30"
-              },
-              {
-                "tema": "Drenajes torácicos de pequeño y gran calibre",
-                "ponente": "Dr. Gómez Lucas (Neumología)",
-                "hora": "09:00"
-              },
-              {
-                "tema": "Derrame pleural en falla cardíaca",
-                "ponente": "Dr. Camacho Delgado (Neumología y Broncoscopía)",
-                "hora": "09:30"
-              },
-              {
-                "tema": "Manejo del derrame paraneumónico",
-                "ponente": "Dr. Camacho Delgado (Neumología y Broncoscopía)",
-                "hora": "10:00"
-              },
-              {
-                "tema": "Manejo quirúrgico del empiema",
-                "ponente": "Dr. Ibarra Celaya (Cirugía de Tórax)",
-                "hora": "10:30"
-              }
-            ]
-          },
-          "cancer_pulmon_trauma_torax": {
-            "horario": "11:30 - 13:30",
-            "charlas": [
-              {
-                "tema": "ABC del cáncer de pulmón",
-                "ponente": "Dr. Cruz Ferreti (Neumología y Broncoscopía)",
-                "hora": "11:30"
-              },
-              {
-                "tema": "Derrame paraneoplásico y maligno, actualidades",
-                "ponente": "Dr. Cruz Ferreti (Neumología y Broncoscopía)",
-                "hora": "12:00"
-              },
-              {
-                "tema": "Trauma cerrado y penetrante de tórax",
-                "ponente": "Dr. Ibarra Celaya (Cirugía de Tórax)",
-                "hora": "12:30"
-              },
-              {
-                "tema": "Neumotórax y hemotórax: abordaje y manejo",
-                "ponente": "Dr. Ibarra Celaya (Cirugía de Tórax)",
-                "hora": "13:00"
-              }
-            ]
-          }
-        },
-        "talleres": {
-          "hora": "15:00",
-          "actividades": [
-            "Colocación de catéter único",
-            "Colocación de sonda Thal Quick",
-            "Colocación de Pleurex",
-            "Biopsias pleurales guiadas por ultrasonido"
-          ]
-        }
-      },
-      "dia_2": {
-        "temas": {
-          "via_aerea": {
-            "horario": "08:00 - 11:00",
-            "charlas": [
-              {
-                "tema": "Abordaje inicial de la vía aérea difícil",
-                "ponente": "Dr. Rodríguez Guevara (Anestesiología y Medicina Crítica)",
-                "hora": "08:00"
-              },
-              {
-                "tema": "Dispositivos supraglóticos e intercambiadores",
-                "ponente": "Dr. Rodríguez Guevara (Anestesiología y Medicina Crítica)",
-                "hora": "08:30"
-              },
-              {
-                "tema": "Parálisis cordal: evaluación, rehabilitación y tratamiento",
-                "ponente": "Dra. Gómez Valdez (Audiología y Foniatría)",
-                "hora": "09:00"
-              },
-              {
-                "tema": "Intubación guiada por broncoscopía",
-                "ponente": "Dr. Hernández Hdz. (Neumología y Broncoscopía)",
-                "hora": "09:30"
-              },
-              {
-                "tema": "Estenosis traqueal: ¿Cuándo sospechar y qué hacer?",
-                "ponente": "Dra. Moreira Meyer (Neumología y Broncoscopía)",
-                "hora": "10:00"
-              },
-              {
-                "tema": "Traqueostomía: ¿Cómo y cuándo retirar?",
-                "ponente": "Dra. Moreira Meyer (Neumología y Broncoscopía)",
-                "hora": "10:30"
-              }
-            ]
-          },
-          "broncoscopia": {
-            "horario": "11:30 - 13:30",
-            "charlas": [
-              {
-                "tema": "Oclusión de vía aérea: opciones terapéuticas",
-                "ponente": "Dr. Trejo Osornio (Neumología y Broncoscopía)",
-                "hora": "11:30"
-              },
-              {
-                "tema": "Crioterapia y argón plasma",
-                "ponente": "Dr. Hernández Hdz. (Neumología y Broncoscopía)",
-                "hora": "12:00"
-              },
-              {
-                "tema": "Stents en vía aérea: actualidades",
-                "ponente": "Dr. Gordillo Mena (Neumología y Broncoscopía)",
-                "hora": "12:30"
-              },
-              {
-                "tema": "Ultrasonido endobronquial: aplicación y futuro",
-                "ponente": "Dra. Jassen Avellaneda (Neumología y Broncoscopía)",
-                "hora": "13:00"
-              }
-            ]
-          }
-        },
-        "talleres": {
-          "hora": "15:00",
-          "generales": [
-            "Dispositivos supraglóticos",
-            "Intubación con broncoscopio",
-            "Traqueostomía percutánea"
+      "general_benefits": [
+          "Reducción del 80% en consultas repetitivas",
+          "Información centralizada y actualizada en tiempo real",
+          "Mayor satisfacción de los asistentes/invitados",
+          "Ahorro significativo en costos de personal",
+          "Optimización de la comunicación",
+          "Automatización de gestión de incidencias"
+      ]
+  },
+  "services": {
+      "Plan Básico B2C": {
+          "description": "Solución ideal para eventos pequeños y celebraciones privadas",
+          "features": [
+              "Asistente Virtual 24/7",
+              "Dashboard para Mensajes Push",
+              "Base de Datos + Servidor"
           ],
-          "intervencionismo": [
-            "Broncoscopía básica",
-            "Extracción de cuerpo extraño",
-            "Criosonda y argón plasma",
-            "Broncoscopía rígida"
+          "benefits": [
+              "Reducción del 80% en consultas repetitivas",
+              "Información centralizada y actualizada en tiempo real",
+              "Mayor satisfacción de los invitados",
+              "Ahorro significativo en costos de personal"
+          ],
+          "ideal_for": [
+              "Bodas",
+              "Bautizos",
+              "Comuniones",
+              "Cumpleaños"
           ]
-        }
+      },
+      "Plan Profesional B2B": {
+          "description": "Solución avanzada para eventos medianos y grandes",
+          "features": [
+              "CRM Integrado",
+              "Mapa Interactivo",
+              "Gestión VIP"
+          ],
+          "ideal_for": [
+              "Festivales",
+              "Congresos",
+              "Ferias",
+              "Convenciones"
+          ]
+      },
+      "Plan Expert": {
+          "description": "Solución integral para la gestión interna y coordinación de grandes eventos",
+          "features": [
+              "Asistente Virtual Interno 24/7",
+              "Sistema de Mensajes Push Avanzado",
+              "Gestión de Stakeholders",
+              "Dashboard Analítico"
+          ],
+          "benefits": [
+              "Optimización de procesos operativos",
+              "Reducción de tiempos de respuesta",
+              "Mejor coordinación entre departamentos",
+              "Análisis detallado post-evento"
+          ],
+          "ideal_for": [
+              "Organizadores Profesionales",
+              "Equipos de Producción",
+              "Gestores de Eventos",
+              "Coordinadores de Logística"
+          ]
       }
-    }
-  }
+  },
+  "additional_services": {
+      "Gamificación": {
+          "description": "Aumenta el engagement mediante mecánicas de juego y recompensas"
+      },
+      "Campañas de Leads": {
+          "description": "Estrategias personalizadas para captación de asistentes en futuras ediciones"
+      },
+      "Análisis Emocional": {
+          "description": "Evaluación del sentimiento y satisfacción de los asistentes mediante IA"
+      }
+  },
+  "company_features": [
+      "Optimización de comunicación entre organizadores y asistentes",
+      "Automatización de gestión de incidencias",
+      "Información en tiempo real",
+      "Asistentes virtuales disponibles 24/7",
+      "Integración con WhatsApp y redes sociales",
+      "Gestión eficiente de consultas frecuentes"
+  ]
+}

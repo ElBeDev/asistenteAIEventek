@@ -1,0 +1,271 @@
+/* Google Fonts Import - Should be at the top */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Sober Theme with Green Accents */
+    --theme-background-color: #f8f9fa; /* Very light grey for main background */
+    --theme-surface-color: #ffffff;    /* White for cards, navbar, sidebar background */
+    --theme-default-text-color: #212529; /* Dark grey/black for general text */
+    --theme-heading-color: #343a40;   /* Slightly darker grey for headings */
+    --theme-muted-text-color: #6c757d; /* Muted text for less important info */
+    
+    --theme-primary-accent-color: #15b685; /* Main green accent */
+    --theme-secondary-accent-color: #0f8b65; /* Darker green for borders or secondary actions */
+    --theme-accent-text-color: #ffffff; /* Text color for on-accent backgrounds (e.g., buttons) */
+
+    /* Navigation Variables */
+    --nav-bg-color: var(--theme-surface-color); /* Sidebar/Navbar background */
+    --nav-text-color: #495057; /* Text color for nav links */
+    --nav-icon-color: #6c757d; /* Icon color in nav */
+    --nav-hover-bg-color: #e9ecef; /* Background on nav link hover */
+    --nav-hover-text-color: var(--theme-primary-accent-color); /* Text color on nav link hover */
+    --nav-active-bg-color: var(--theme-primary-accent-color); /* Background for active nav link */
+    --nav-active-text-color: var(--theme-accent-text-color); /* Text color for active nav link */
+    --nav-border-color: #dee2e6; /* Border color for separators */
+
+    --nav-dropdown-background-color: #ffffff;
+    --nav-dropdown-color: #495057;
+    --nav-dropdown-hover-color: var(--theme-primary-accent-color);
+    --nav-dropdown-hover-bg-color: #f8f9fa;
+
+
+    /* Default Font */
+    --default-font: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    font-family: var(--default-font);
+    background-color: var(--theme-background-color);
+    color: var(--theme-default-text-color);
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+main {
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.sidebar {
+    width: 260px;
+    background-color: var(--nav-bg-color);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-right: 1px solid var(--nav-border-color);
+}
+
+.sidebar .nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--nav-text-color);
+    padding: 0.75rem 1.25rem;
+    border-left: 3px solid transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-left-color 0.15s ease-in-out;
+}
+
+.sidebar .nav-link .bi {
+    margin-right: 10px;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    color: var(--nav-icon-color);
+}
+
+.sidebar .nav-link:hover {
+    color: var(--nav-hover-text-color);
+    background-color: var(--nav-hover-bg-color);
+    border-left-color: var(--theme-primary-accent-color);
+}
+.sidebar .nav-link:hover .bi {
+    color: var(--nav-hover-text-color);
+}
+
+.sidebar .nav-link.active {
+    color: var(--nav-active-text-color);
+    font-weight: 600;
+    background-color: var(--nav-active-bg-color);
+    border-left-color: var(--theme-secondary-accent-color); /* Darker green border for active */
+}
+.sidebar .nav-link.active .bi {
+    color: var(--nav-active-text-color);
+}
+
+.sidebar .fs-4 { /* Sidebar Title */
+    color: var(--theme-heading-color);
+}
+.sidebar .text-white { /* Remove this if sidebar title is not meant to be white */
+    color: var(--theme-heading-color) !important;
+}
+
+
+.sidebar hr {
+    border-top: 1px solid var(--nav-border-color);
+}
+
+.navbar {
+    z-index: 1040;
+    background-color: var(--nav-bg-color) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-bottom: 1px solid var(--nav-border-color);
+}
+
+.navbar .nav-link, .navbar .navbar-brand, .navbar .dropdown-toggle {
+    color: var(--nav-text-color);
+}
+.navbar .dropdown-toggle strong {
+    color: var(--theme-heading-color);
+}
+.navbar .dropdown-menu {
+    background-color: var(--nav-dropdown-background-color);
+    border: 1px solid var(--nav-border-color);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.navbar .dropdown-item {
+    color: var(--nav-dropdown-color);
+}
+.navbar .dropdown-item:hover {
+    color: var(--nav-dropdown-hover-color);
+    background-color: var(--nav-dropdown-hover-bg-color);
+}
+
+
+.content-area {
+    height: calc(100vh - 57px); /* Adjust if navbar height changes (56px + 1px border) */
+    overflow-y: auto;
+    padding: 1.5rem;
+    background-color: var(--theme-background-color);
+}
+
+/* Card styling */
+.card {
+    border: 1px solid var(--nav-border-color); /* Subtle border for cards */
+    border-radius: 0.5rem;
+    background-color: var(--theme-surface-color);
+    color: var(--theme-default-text-color);
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+
+.card-header {
+    background-color: #f8f9fa; /* Lighter header for cards */
+    border-bottom: 1px solid var(--nav-border-color);
+    padding: 1rem 1.25rem;
+    color: var(--theme-heading-color);
+}
+.card-header h1, .card-header h2, .card-header h3, .card-header h4, .card-header h5, .card-header h6 {
+    color: var(--theme-heading-color);
+    margin-bottom: 0;
+}
+
+/* "Add New Contact" button in header - now a standard primary button */
+.card-header .btn-primary {
+    background-color: var(--theme-primary-accent-color);
+    border-color: var(--theme-primary-accent-color);
+    color: var(--theme-accent-text-color);
+}
+.card-header .btn-primary:hover {
+    background-color: var(--theme-secondary-accent-color);
+    border-color: var(--theme-secondary-accent-color);
+}
+
+/* General heading colors in content area */
+.content-area h1, .content-area h2, .content-area h3, .content-area h4, .content-area h5, .content-area h6 {
+    color: var(--theme-heading-color);
+}
+.content-area .h2.mb-0.text-dark { /* For "CRM Dashboard" title */
+    color: var(--theme-heading-color) !important;
+}
+
+
+/* Table styling */
+.table {
+    color: var(--theme-default-text-color);
+    border: 1px solid var(--nav-border-color);
+}
+
+.table-sm th, .table-sm td {
+    padding: 0.5rem 0.75rem;
+    border-color: var(--nav-border-color);
+}
+
+.table thead th {
+    background-color: #e9ecef; /* Light grey for table header */
+    color: var(--theme-heading-color);
+    border-bottom: 2px solid var(--nav-border-color); /* Stronger bottom border for header */
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f3f5; /* Slightly darker hover for table rows */
+    color: var(--theme-default-text-color);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.025); /* Very subtle striping */
+}
+
+/* Form elements inside cards */
+.card .form-label {
+    color: var(--theme-default-text-color);
+    font-weight: 500;
+}
+.card .form-control, .card .form-select {
+    background-color: var(--theme-surface-color);
+    color: var(--theme-default-text-color);
+    border: 1px solid #ced4da; /* Standard Bootstrap border color */
+}
+.card .form-control::placeholder {
+    color: var(--theme-muted-text-color);
+}
+.card .form-control:focus, .card .form-select:focus {
+    border-color: var(--theme-primary-accent-color);
+    box-shadow: 0 0 0 0.25rem rgba(21, 182, 133, 0.25); /* Green focus shadow */
+}
+
+/* Buttons inside cards (Save, Cancel) */
+.card .btn-success { /* Using Bootstrap's success, but themed with our accent */
+    background-color: var(--theme-primary-accent-color);
+    border-color: var(--theme-primary-accent-color);
+    color: var(--theme-accent-text-color);
+}
+.card .btn-success:hover {
+    background-color: var(--theme-secondary-accent-color);
+    border-color: var(--theme-secondary-accent-color);
+}
+.card .btn-outline-secondary { /* Standard Bootstrap outline secondary */
+    color: var(--theme-muted-text-color);
+    border-color: #6c757d;
+}
+.card .btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+/* Action buttons in table (Edit, Delete) */
+.table .btn-outline-primary {
+    color: var(--theme-primary-accent-color);
+    border-color: var(--theme-primary-accent-color);
+}
+.table .btn-outline-primary:hover {
+    background-color: var(--theme-primary-accent-color);
+    color: var(--theme-accent-text-color);
+}
+.table .btn-outline-danger { /* Standard Bootstrap outline danger */
+    color: #dc3545;
+    border-color: #dc3545;
+}
+.table .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}

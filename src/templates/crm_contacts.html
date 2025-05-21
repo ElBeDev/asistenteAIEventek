@@ -1,0 +1,49 @@
+<!-- filepath: d:\GitHub\asistenteAIEventek\src\templates\crm_contacts.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Contacts</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>CRM Contact List</h1>
+
+    {% if contacts %}
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <!-- Add other headers as needed -->
+                </tr>
+            </thead>
+            <tbody>
+                {% for contact in contacts %}
+                <tr>
+                    <td>{{ contact.id }}</td>
+                    <td>{{ contact.name | default('N/A') }}</td>
+                    <td>{{ contact.email | default('N/A') }}</td>
+                    <td>{{ contact.phone | default('N/A') }}</td>
+                    <!-- Add other data cells as needed -->
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No contacts found in the database.</p>
+    {% endif %}
+
+    <!-- You could add forms here later to add/edit contacts -->
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+PS D:\GitHub\asistenteAIEventek> gcloud app logs tail -s default
+Waiting for new log entries...
+2025-05-10 05:13:34 default[20250506t152430]  2025-05-10 05:13:34,461 - src.conversation_manager - INFO - ConversationManager initialized (in-memory storage).        
+2025-05-10 05:13:34 default[20250506t152430]  2025-05-10 05:13:34,461 - eventek_assistant.core - INFO - ConversationManager initialized.
+2025-05-10 05:13:34 default[20250506t152430]  2025-05-10 05:13:34,461 - eventek_assistant.core - INFO - CourseAssistant __init__ completed for ID: asst_TU02ADdjJXw0CnxnNN0IkrSv
+2025-05-10 05:13:34 default[20250506t152430]  2025-05-10 05:13:34,461 - eventek_assistant - INFO - CourseAssistant instance created and initialized.
+2025-05-10 05:13:34 default[20250506t152430]  2025-05-10 05:13:34,461 - whatsapp_bot - INFO - Assistant initialized successfully
+2025-05-10 05:13:34 default[20250506t152430]  INFO:     Application startup complete.
+2025-05-10 05:13:34 default[20250506t152430]  INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-05-10 05:13:34 default[20250506t152430]  INFO:     169.254.1.1:0 - "GET /_ah/warmup HTTP/1.1" 404 Not Found
+2025-05-10 05:14:38 default[20250506t152430]  INFO:     Shutting down
+2025-05-10 05:14:38 default[20250506t152430]  INFO:     Waiting for application shutdown.
+2025-05-10 05:14:38 default[20250506t152430]  2025-05-10 05:14:38,292 - whatsapp_bot - INFO - Application shutdown: Closing database connection...
+2025-05-10 05:14:38 default[20250506t152430]  2025-05-10 05:14:38,292 - src.db - INFO - Closing MongoDB connection...
+2025-05-10 05:14:38 default[20250506t152430]  2025-05-10 05:14:38,999 - src.db - INFO - MongoDB connection closed.
+2025-05-10 05:14:38 default[20250506t152430]  2025-05-10 05:14:38,999 - whatsapp_bot - INFO - Database connection closed.
+2025-05-10 05:14:38 default[20250506t152430]  INFO:     Application shutdown complete.
+2025-05-10 05:14:38 default[20250506t152430]  INFO:     Finished server process [11]
+2025-05-14 20:41:02 default[20250506t152430]  INFO:     Shutting down
+2025-05-14 20:41:02 default[20250506t152430]  INFO:     Waiting for application shutdown.
+2025-05-14 20:41:02 default[20250506t152430]  2025-05-14 20:41:02,914 - whatsapp_bot - INFO - Application shutdown: Closing database connection...
+2025-05-14 20:41:02 default[20250506t152430]  2025-05-14 20:41:02,914 - src.db - INFO - Closing MongoDB connection...
+2025-05-14 20:41:03 default[20250506t152430]  2025-05-14 20:41:03,614 - src.db - INFO - MongoDB connection closed.
+2025-05-14 20:41:03 default[20250506t152430]  2025-05-14 20:41:03,614 - whatsapp_bot - INFO - Database connection closed.
+2025-05-14 20:41:03 default[20250506t152430]  INFO:     Application shutdown complete.
+2025-05-14 20:41:03 default[20250506t152430]  INFO:     Finished server process [11]
+2025-05-14 20:41:03 default[20250506t152430]  "GET /_ah/warmup HTTP/1.1" 404       
+2025-05-14 20:41:10 default[20250506t152430]  2025-05-14 20:41:10,190 - whatsapp_bot - INFO - FastAPI application configured.
+2025-05-14 20:41:10 default[20250506t152430]  INFO:     Started server process [11]
+2025-05-14 20:41:10 default[20250506t152430]  INFO:     Waiting for application startup.
+2025-05-14 20:41:10 default[20250506t152430]  2025-05-14 20:41:10,191 - whatsapp_bot - INFO - Application startup: Initializing database connection...
+2025-05-14 20:41:10 default[20250506t152430]  2025-05-14 20:41:10,191 - src.db - INFO - Initializing MongoDB connection...
+2025-05-14 20:41:10 default[20250506t152430]  2025-05-14 20:41:10,294 - src.db - WARNING - Database name not found in connection string, defaulting to 'eventek'.     
+2025-05-14 20:41:11 default[20250506t152430]  2025-05-14 20:41:11,656 - src.db - INFO - Successfully connected to MongoDB database: 'eventek'
+2025-05-14 20:41:11 default[20250506t152430]  2025-05-14 20:41:11,656 - whatsapp_bot - INFO - Database connection established.
+2025-05-14 20:41:11 default[20250506t152430]  2025-05-14 20:41:11,656 - whatsapp_bot - INFO - Initializing OpenAI Assistant...
+2025-05-14 20:41:11 default[20250506t152430]  2025-05-14 20:41:11,656 - eventek_assistant - INFO - Running initialize_assistant function...
+2025-05-14 20:41:11 default[20250506t152430]  2025-05-14 20:41:11,794 - eventek_assistant - INFO - AsyncOpenAI client for setup initialized.
+2025-05-14 20:41:11 default[20250506t152430]  2025-05-14 20:41:11,794 - eventek_assistant.config - INFO - `force_new` detected. Creating a new assistant.
+2025-05-14 20:41:11 default[20250506t152430]  2025-05-14 20:41:11,795 - eventek_assistant.config - INFO - Creating new assistant 'Asistente Eventek'...
+2025-05-14 20:41:12 default[20250506t152430]  2025-05-14 20:41:12,655 - eventek_assistant.config - INFO - Created new assistant with ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-14 20:41:12 default[20250506t152430]  2025-05-14 20:41:12,655 - eventek_assistant.config - INFO - Uploading knowledge file: /workspace/src/course_info.json   
+2025-05-14 20:41:13 default[20250506t152430]  2025-05-14 20:41:13,436 - eventek_assistant.config - INFO - File uploaded with ID: file-8Tqc9TVfqw8qPs3QahMwRp
+2025-05-14 20:41:13 default[20250506t152430]  2025-05-14 20:41:13,436 - eventek_assistant.config - INFO - Creating vector store: Eventek Knowledge Base - 20250514224110
+2025-05-14 20:41:15 default[20250506t152430]  2025-05-14 20:41:15,049 - eventek_assistant.config - INFO - Vector store created with ID: vs_6824ffeac8ac8191a1e8eb4a12edc517 and file file-8Tqc9TVfqw8qPs3QahMwRp added.
+2025-05-14 20:41:15 default[20250506t152430]  2025-05-14 20:41:15,049 - eventek_assistant.config - INFO - Associating vector store vs_6824ffeac8ac8191a1e8eb4a12edc517 with assistant asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,511 - eventek_assistant.config - INFO - Assistant asst_00QY5jSno0QYtkm43LeTFU3G updated with vector store.
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,511 - eventek_assistant.config - WARNING - IMPORTANT: A new assistant was created (ID: asst_00QY5jSno0QYtkm43LeTFU3G). Update 'EVENTEK_ASSISTANT_ID' to this ID to reuse it.
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,511 - eventek_assistant - INFO - Assistant setup completed. Using Assistant ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,511 - eventek_assistant.core - INFO - CourseAssistant __init__ started.
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,575 - eventek_assistant.core - INFO - AsyncOpenAI client initialized.
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,575 - eventek_assistant.core - INFO - Using Assistant ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,575 - src.conversation_manager - INFO - ConversationManager initialized (in-memory storage).        
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,575 - eventek_assistant.core - INFO - ConversationManager initialized.
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,575 - eventek_assistant.core - INFO - CourseAssistant __init__ completed for ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,575 - eventek_assistant - INFO - CourseAssistant instance created and initialized.
+2025-05-14 20:41:16 default[20250506t152430]  2025-05-14 20:41:16,575 - whatsapp_bot - INFO - Assistant initialized successfully
+2025-05-14 20:41:16 default[20250506t152430]  INFO:     Application startup complete.
+2025-05-14 20:41:16 default[20250506t152430]  INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-05-14 20:41:16 default[20250506t152430]  INFO:     169.254.1.1:0 - "GET /_ah/warmup HTTP/1.1" 404 Not Found
+2025-05-17 16:35:14 default[20250506t152430]  "GET / HTTP/1.1" 200
+2025-05-17 16:35:14 default[20250506t152430]  INFO:     169.254.1.1:0 - "GET / HTTP/1.1" 200 OK
+2025-05-17 16:35:14 default[20250506t152430]  "GET /static/css/crm_dashboard_styles.css HTTP/1.1" 200
+2025-05-17 16:35:15 default[20250506t152430]  INFO:     169.254.1.1:0 - "GET /static/css/crm_dashboard_styles.css HTTP/1.1" 200 OK
+2025-05-17 16:35:15 default[20250506t152430]  "GET /favicon.ico HTTP/1.1" 404      
+2025-05-17 16:35:15 default[20250506t152430]  INFO:     169.254.1.1:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+2025-05-17 17:04:11 default[20250517t140236]  "GET /_ah/warmup HTTP/1.1" 404       
+2025-05-17 17:04:17 default[20250517t140236]  2025-05-17 17:04:17,890 - whatsapp_bot - INFO - FastAPI application configured.
+2025-05-17 17:04:17 default[20250517t140236]  INFO:     Started server process [11]
+2025-05-17 17:04:17 default[20250517t140236]  INFO:     Waiting for application startup.
+2025-05-17 17:04:17 default[20250517t140236]  2025-05-17 17:04:17,891 - whatsapp_bot - INFO - Application startup: Initializing database connection...
+2025-05-17 17:04:17 default[20250517t140236]  2025-05-17 17:04:17,891 - src.db - INFO - Initializing MongoDB connection...
+2025-05-17 17:04:17 default[20250517t140236]  2025-05-17 17:04:18,000 - src.db - WARNING - Database name not found in connection string, defaulting to 'eventek'.     
+2025-05-17 17:04:19 default[20250517t140236]  2025-05-17 17:04:19,386 - src.db - INFO - Successfully connected to MongoDB database: 'eventek'
+2025-05-17 17:04:19 default[20250517t140236]  2025-05-17 17:04:19,386 - whatsapp_bot - INFO - Database connection established.
+2025-05-17 17:04:19 default[20250517t140236]  2025-05-17 17:04:19,386 - whatsapp_bot - INFO - Initializing OpenAI Assistant...
+2025-05-17 17:04:19 default[20250517t140236]  2025-05-17 17:04:19,386 - eventek_assistant - INFO - Running initialize_assistant function...
+2025-05-17 17:04:19 default[20250517t140236]  2025-05-17 17:04:19,629 - eventek_assistant - INFO - AsyncOpenAI client for setup initialized.
+2025-05-17 17:04:19 default[20250517t140236]  2025-05-17 17:04:19,629 - eventek_assistant.config - INFO - Attempting to retrieve assistant using ID from env: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-17 17:04:21 default[20250517t140236]  2025-05-17 17:04:21,451 - eventek_assistant.config - INFO - Successfully retrieved existing assistant with ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-17 17:04:21 default[20250517t140236]  2025-05-17 17:04:21,451 - eventek_assistant.config - INFO - Ensuring existing assistant asst_00QY5jSno0QYtkm43LeTFU3G has latest instructions and tools...
+2025-05-17 17:04:23 default[20250517t140236]  2025-05-17 17:04:23,974 - eventek_assistant.config - INFO - Assistant asst_00QY5jSno0QYtkm43LeTFU3G updated with latest settings.
+2025-05-17 17:04:23 default[20250517t140236]  2025-05-17 17:04:23,974 - eventek_assistant - INFO - Assistant setup completed. Using Assistant ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-17 17:04:23 default[20250517t140236]  2025-05-17 17:04:23,974 - eventek_assistant.core - INFO - CourseAssistant __init__ started.
+2025-05-17 17:04:24 default[20250517t140236]  2025-05-17 17:04:24,030 - eventek_assistant.core - INFO - AsyncOpenAI client initialized.
+2025-05-17 17:04:24 default[20250517t140236]  2025-05-17 17:04:24,030 - eventek_assistant.core - INFO - Using Assistant ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-17 17:04:24 default[20250517t140236]  2025-05-17 17:04:24,030 - src.conversation_manager - INFO - ConversationManager initialized (in-memory storage).        
+2025-05-17 17:04:24 default[20250517t140236]  2025-05-17 17:04:24,030 - eventek_assistant.core - INFO - ConversationManager initialized.
+2025-05-17 17:04:24 default[20250517t140236]  2025-05-17 17:04:24,030 - eventek_assistant.core - INFO - CourseAssistant __init__ completed for ID: asst_00QY5jSno0QYtkm43LeTFU3G
+2025-05-17 17:04:24 default[20250517t140236]  2025-05-17 17:04:24,030 - eventek_assistant - INFO - CourseAssistant instance created and initialized.
+2025-05-17 17:04:24 default[20250517t140236]  2025-05-17 17:04:24,030 - whatsapp_bot - INFO - Assistant initialized successfully
+2025-05-17 17:04:24 default[20250517t140236]  INFO:     Application startup complete.
+2025-05-17 17:04:24 default[20250517t140236]  INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-05-17 17:04:24 default[20250517t140236]  INFO:     169.254.1.1:0 - "GET /_ah/warmup HTTP/1.1" 404 Not Found
+2025-05-17 17:05:33 default[20250506t152430]  INFO:     Shutting down
+2025-05-17 17:05:33 default[20250506t152430]  INFO:     Waiting for application shutdown.
+2025-05-17 17:05:33 default[20250506t152430]  2025-05-17 17:05:33,124 - whatsapp_bot - INFO - Application shutdown: Closing database connection...
+2025-05-17 17:05:33 default[20250506t152430]  2025-05-17 17:05:33,124 - src.db - INFO - Closing MongoDB connection...
+2025-05-17 17:05:33 default[20250506t152430]  2025-05-17 17:05:33,229 - src.db - INFO - MongoDB connection closed.
+2025-05-17 17:05:33 default[20250506t152430]  2025-05-17 17:05:33,229 - whatsapp_bot - INFO - Database connection closed.
+2025-05-17 17:05:33 default[20250506t152430]  INFO:     Application shutdown complete.
+2025-05-17 17:05:33 default[20250506t152430]  INFO:     Finished server process [11]

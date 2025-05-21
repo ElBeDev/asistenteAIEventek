@@ -1,54 +1,91 @@
 {
     "business_info": {
-        "name": "Consultorio Dental Laura",
-        "address": "Av. Principal 123, Buenos Aires",
-        "phone": "+54 11 1234-5678",
-        "email": "contacto@dentistalaura.com",
-        "working_hours": {
-            "monday": "09:00-18:00",
-            "tuesday": "09:00-18:00",
-            "wednesday": "09:00-18:00",
-            "thursday": "09:00-18:00",
-            "friday": "09:00-18:00",
-            "saturday": "Cerrado",
-            "sunday": "Cerrado"
+        "name": "Eventek",
+        "description": "Empresa especializada en asistentes virtuales de IA para eventos",
+        "phone": "+34 900 123 456",
+        "email": "contacto@eventek.com",
+        "working_hours": "24/7 (Asistente Virtual)",
+        "social_media": {
+            "twitter": "https://twitter.com/eventek",
+            "facebook": "https://facebook.com/eventek",
+            "instagram": "https://instagram.com/eventek",
+            "linkedin": "https://linkedin.com/company/eventek"
         }
     },
     "services": {
-        "Chequeo rutinario": {
-            "description": "Examen dental completo y limpieza básica",
-            "duration": "30 minutos",
-            "price": "5000 ARS"
+        "Plan Básico B2C": {
+            "description": "Solución ideal para eventos pequeños y celebraciones privadas",
+            "features": [
+                "Asistente Virtual 24/7",
+                "Dashboard para Mensajes Push",
+                "Base de Datos + Servidor"
+            ],
+            "benefits": [
+                "Reducción del 80% en consultas repetitivas",
+                "Información centralizada y actualizada en tiempo real",
+                "Mayor satisfacción de los invitados",
+                "Ahorro significativo en costos de personal"
+            ],
+            "ideal_for": [
+                "Bodas",
+                "Bautizos",
+                "Comuniones",
+                "Cumpleaños"
+            ]
         },
-        "Limpieza": {
-            "description": "Limpieza dental profunda y eliminación de sarro",
-            "duration": "45 minutos",
-            "price": "7000 ARS"
+        "Plan Profesional B2B": {
+            "description": "Solución avanzada para eventos medianos y grandes",
+            "features": [
+                "CRM Integrado",
+                "Mapa Interactivo",
+                "Gestión VIP"
+            ],
+            "ideal_for": [
+                "Festivales",
+                "Congresos",
+                "Ferias",
+                "Convenciones"
+            ]
         },
-        "Extracción": {
-            "description": "Extracción dental simple",
-            "duration": "60 minutos",
-            "price": "10000 ARS"
-        },
-        "Ortodoncia": {
-            "description": "Consulta y tratamiento de ortodoncia",
-            "duration": "60 minutos",
-            "price": "15000 ARS"
+        "Plan Expert": {
+            "description": "Solución integral para la gestión interna y coordinación de grandes eventos",
+            "features": [
+                "Asistente Virtual Interno 24/7",
+                "Sistema de Mensajes Push Avanzado",
+                "Gestión de Stakeholders",
+                "Dashboard Analítico"
+            ],
+            "benefits": [
+                "Optimización de procesos operativos",
+                "Reducción de tiempos de respuesta",
+                "Mejor coordinación entre departamentos",
+                "Análisis detallado post-evento"
+            ],
+            "ideal_for": [
+                "Organizadores Profesionales",
+                "Equipos de Producción",
+                "Gestores de Eventos",
+                "Coordinadores de Logística"
+            ]
         }
     },
-    "policies": {
-        "cancellation": "Se requiere aviso con 24 horas de anticipación para cancelaciones",
-        "payment_methods": [
-            "Efectivo",
-            "Tarjeta de crédito",
-            "Tarjeta de débito",
-            "Transferencia bancaria"
-        ],
-        "insurance": [
-            "OSDE",
-            "Swiss Medical",
-            "Galeno",
-            "Medifé"
-        ]
-    }
+    "additional_services": {
+        "Gamificación": {
+            "description": "Aumenta el engagement mediante mecánicas de juego y recompensas"
+        },
+        "Campañas de Leads": {
+            "description": "Estrategias personalizadas para captación de asistentes en futuras ediciones"
+        },
+        "Análisis Emocional": {
+            "description": "Evaluación del sentimiento y satisfacción de los asistentes mediante IA"
+        }
+    },
+    "company_features": [
+        "Optimización de comunicación entre organizadores y asistentes",
+        "Automatización de gestión de incidencias",
+        "Información en tiempo real",
+        "Asistentes virtuales disponibles 24/7",
+        "Integración con WhatsApp y redes sociales",
+        "Gestión eficiente de consultas frecuentes"
+    ]
 }

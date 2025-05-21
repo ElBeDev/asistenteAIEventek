@@ -10,3 +10,6 @@ gunicorn
 pydantic-settings
 httpx
 python-multipart
+motor
+Jinja2
+pydantic[email]

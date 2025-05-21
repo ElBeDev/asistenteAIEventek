@@ -7,7 +7,7 @@ from ..config import get_settings
 class WhatsAppService:
     def __init__(self):
         self.settings = get_settings()
-        self.api_url = "https://graph.facebook.com/v17.0"
+        self.api_url = "https://graph.facebook.com/v22.0"
         self.token = self.settings.WHATSAPP_TOKEN
         self.phone_number_id = self.settings.PHONE_NUMBER_ID
         self.waba_id = self.settings.WABA_ID  # Add this line
