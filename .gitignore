@@ -12,3 +12,4 @@ env/
 venv/
 ENV/
 *.log
+app.yaml
